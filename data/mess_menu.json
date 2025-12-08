@@ -1,47 +1,47 @@
 {
   "month": "November 2025",
   "menu": {
-    "Monday": {
-      "Breakfast": "Idli, Podi Idly, Sprouts, Groundnut Chutney, Tomato Chutney, Sambar, Bread (Normal/Brown), Jam, Butter, Coffee, Milk",
-      "Lunch": "Rice, Kerala rice, Roti, Ivy gourd fry, Olan, Veg Kolhapuri, Pineapple Pachadi, Kondattam, Papad, Curd, Salad",
-      "Snacks": "Chivda, Bread, Jam, Butter, Tea, Milk",
-      "Dinner": "Rice, Roti, Brinjal curry, Spicy Dal Tadka, Sambhar, Rice, Rasam, Curd, Salad, Chips, Sweet: Ada Payasam, Banana"
+    "monday": {
+      "breakfast": "Idli, Podi Idly, Sprouts, Groundnut Chutney, Tomato Chutney, Sambar, Bread (Normal/Brown), Jam, Butter, Coffee, Milk",
+      "lunch": "Rice, Kerala rice, Roti, Ivy gourd fry, Olan, Veg Kolhapuri, Pineapple Pachadi, Kondattam, Papad, Curd, Salad",
+      "snacks": "Chivda, Bread, Jam, Butter, Tea, Milk",
+      "dinner": "Rice, Roti, Brinjal curry, Spicy Dal Tadka, Sambhar, Rice, Rasam, Curd, Salad, Chips, Sweet: Ada Payasam, Banana"
     },
-    "Tuesday": {
-      "Breakfast": "Vada Pav, Puttu, Channa Curry, Fried Chillies, Onions, Green Chutney, Red Powdered Chutney, Bread (Normal/Brown), Jam, Butter, Tea, Milk, Banana",
-      "Lunch": "Rice, Tomato Rice, Roti, Carrot Beans Thoran, Avial, Sambar, Salad, Curd, Chips, Drink: Buttermilk",
-      "Snacks": "Masala Puri chaat, Bread, Jam, Butter, Coffee, Milk",
-      "Dinner": "Rice, Roti, Boiled eggs, Spicy Tomato Gravy, Dal Tadka, Vegetable Kurma, Tomato rasam, Curd, Salad, Sweet: Sweet Rice"
+    "tuesday": {
+      "breakfast": "Vada Pav, Puttu, Channa Curry, Fried Chillies, Onions, Green Chutney, Red Powdered Chutney, Bread (Normal/Brown), Jam, Butter, Tea, Milk, Banana",
+      "lunch": "Rice, Tomato Rice, Roti, Carrot Beans Thoran, Avial, Sambar, Salad, Curd, Chips, Drink: Buttermilk",
+      "snacks": "Masala Puri chaat, Bread, Jam, Butter, Coffee, Milk",
+      "dinner": "Rice, Roti, Boiled eggs, Spicy Tomato Gravy, Dal Tadka, Vegetable Kurma, Tomato rasam, Curd, Salad, Sweet: Sweet Rice"
     },
-    "Wednesday": {
-      "Breakfast": "Idli, Masala Idli, Punugulu, Sambar, Groundnut Chutney, Tomato Chutney, Puliyinchi, Bread (Normal/Brown), Jam, Butter, Coffee, Milk",
-      "Lunch": "Rice, Roti, Chole curry, Onion Dal Tadka, Cabbage Carrot Thoran, Rasam, Fryums, Salad, Curd, Drink: Sweet Lassi",
-      "Snacks": "Sweetcorn (boiled), Bread, Jam, Butter, Tea, Milk",
-      "Dinner": "Vegetable Fried Rice, Roti, Paneer Butter Masala, Chilli Chicken, Onion Chilli Raita, Drink: Passion Fruit drink"
+    "wednesday": {
+      "breakfast": "Idli, Masala Idli, Punugulu, Sambar, Groundnut Chutney, Tomato Chutney, Puliyinchi, Bread (Normal/Brown), Jam, Butter, Coffee, Milk",
+      "lunch": "Rice, Roti, Chole curry, Onion Dal Tadka, Cabbage Carrot Thoran, Rasam, Fryums, Salad, Curd, Drink: Sweet Lassi",
+      "snacks": "Sweetcorn (boiled), Bread, Jam, Butter, Tea, Milk",
+      "dinner": "Vegetable Fried Rice, Roti, Paneer Butter Masala, Chilli Chicken, Onion Chilli Raita, Drink: Passion Fruit drink"
     },
-    "Thursday": {
-      "Breakfast": "Vermicelli upma, Vegetable Upma, Sprouts, Groundnut Chutney, Bread (Normal/Brown), Jam, Butter, Banana, Coffee, Milk, Ragi malt with jaggery",
-      "Lunch": "Roti, Rice, Sambar, Puliyinchi, Egg Bhurji, Mixed Vegetable Kurma, Curd, Salad, Rasam",
-      "Snacks": "Dil Pasand, Bread, Jam, Butter, Coffee, Milk",
-      "Dinner": "Roti, Rice, Rasam, Potato Roast, Onion Dal Tadka, Kanji, Chammanthi, Curd, Salad, Sweet: Rava Kesari"
+    "thursday": {
+      "breakfast": "Vermicelli upma, Vegetable Upma, Sprouts, Groundnut Chutney, Bread (Normal/Brown), Jam, Butter, Banana, Coffee, Milk, Ragi malt with jaggery",
+      "lunch": "Roti, Rice, Sambar, Puliyinchi, Egg Bhurji, Mixed Vegetable Kurma, Curd, Salad, Rasam",
+      "snacks": "Dil Pasand, Bread, Jam, Butter, Coffee, Milk",
+      "dinner": "Roti, Rice, Rasam, Potato Roast, Onion Dal Tadka, Kanji, Chammanthi, Curd, Salad, Sweet: Rava Kesari"
     },
-    "Friday": {
-      "Breakfast": "Plain Dosa, Medu Vada, Sambar, Coconut Chutney, Bread (Normal/Brown), Jam, Butter, Tea, Banana, Milk",
-      "Lunch": "Rice, Roti, Palak Dal Tadka, Crunchy Bhindi Fry, Rasam, Papad, Curd, Salad, Drink: Buttermilk",
-      "Snacks": "Kozhukkatta, Bread, Jam, Butter, Tea, Milk",
-      "Dinner": "Tawa Pulao, Roti, Chettinad Chicken, Chilli Paneer, Vegetable Raita, Salad, Drink: Lemon juice / Litchi"
+    "friday": {
+      "breakfast": "Plain Dosa, Medu Vada, Sambar, Coconut Chutney, Bread (Normal/Brown), Jam, Butter, Tea, Banana, Milk",
+      "lunch": "Rice, Roti, Palak Dal Tadka, Crunchy Bhindi Fry, Rasam, Papad, Curd, Salad, Drink: Buttermilk",
+      "snacks": "Kozhukkatta, Bread, Jam, Butter, Tea, Milk",
+      "dinner": "Tawa Pulao, Roti, Chettinad Chicken, Chilli Paneer, Vegetable Raita, Salad, Drink: Lemon juice / Litchi"
     },
-    "Saturday": {
-      "Breakfast": "Pav Bhaji, Lemons, Onions, Uggani (Puffed rice), Roasted Chana Podi, Bread (Normal/Brown), Jam, Butter, Banana, Tea, Milk",
-      "Lunch": "Kerala Rice, White Rice, Jeera Rice, Roti, Pulissery, Potato Curry, Mulaku Kondattam, Rajma Curry, Curd, Salad",
-      "Snacks": "Onion Vada, Steamed Kerala Banana, Bread, Jam, Butter, Coffee, Milk",
-      "Dinner": "Rice, Pudina Rice, Roti, Mirchi Bajji, Soya Granules Curry, Beetroot Curry, Palak Dal Tadka, Pepper Rasam, Curd, Salad, Sweet: Vermicelli Payasam"
+    "saturday": {
+      "breakfast": "Pav Bhaji, Lemons, Onions, Uggani (Puffed rice), Roasted Chana Podi, Bread (Normal/Brown), Jam, Butter, Banana, Tea, Milk",
+      "lunch": "Kerala Rice, White Rice, Jeera Rice, Roti, Pulissery, Potato Curry, Mulaku Kondattam, Rajma Curry, Curd, Salad",
+      "snacks": "Onion Vada, Steamed Kerala Banana, Bread, Jam, Butter, Coffee, Milk",
+      "dinner": "Rice, Pudina Rice, Roti, Mirchi Bajji, Soya Granules Curry, Beetroot Curry, Palak Dal Tadka, Pepper Rasam, Curd, Salad, Sweet: Vermicelli Payasam"
     },
-    "Sunday": {
-      "Breakfast": "Puri Masala, Pongal, Groundnut Chutney, Banana, Boiled Egg, Sprouts, Bread (Normal/Brown), Jam, Tea, Milk",
-      "Lunch": "Rice, Roti, Tomato Bhindi Curry, Dal Tadka, Curd, Salad, Tomato Chutney, Drink: Sweet Lassi",
-      "Snacks": "Roasted/Boiled Peanuts, Banana, Bread, Jam, Butter, Tea, Milk",
-      "Dinner": "Chicken Biryani, Paneer Biryani, Veg Gravy, Chicken Gravy, Boondi Raita, Onion Chilli Raita, Papad, Salad, Drink: Tang"
+    "sunday": {
+      "breakfast": "Puri Masala, Pongal, Groundnut Chutney, Banana, Boiled Egg, Sprouts, Bread (Normal/Brown), Jam, Tea, Milk",
+      "lunch": "Rice, Roti, Tomato Bhindi Curry, Dal Tadka, Curd, Salad, Tomato Chutney, Drink: Sweet Lassi",
+      "snacks": "Roasted/Boiled Peanuts, Banana, Bread, Jam, Butter, Tea, Milk",
+      "dinner": "Chicken Biryani, Paneer Biryani, Veg Gravy, Chicken Gravy, Boondi Raita, Onion Chilli Raita, Papad, Salad, Drink: Tang"
     }
   }
 }

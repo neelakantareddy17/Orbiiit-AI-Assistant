@@ -1,59 +1,34 @@
-import sys
 import os
-
-# Fix Python path so Streamlit can find bot modules in /src
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+import sys
+from dotenv import load_dotenv
+load_dotenv()
 
 import streamlit as st
-from bot.menu_handler import get_mess_menu
-from bot.academic_handler import search_academic
-from bot.intent_classifier import classify_intent
-from bot.llm_handler import setup_model, ask_llm
 
+# Fix import paths
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC_DIR = os.path.join(BASE_DIR, "src")
+sys.path.append(SRC_DIR)
 
-# ---------------- SETUP ---------------- #
+from agent import build_agent
 
-model = setup_model()
+agent = build_agent()
 
 st.set_page_config(page_title="HiesenBot", page_icon="🤖")
-
-st.markdown("<h1 style='text-align: center;'>🤖 HiesenBot – IIIT Kottayam Assistant</h1>", 
-            unsafe_allow_html=True)
-
-
-# ---------------- CHAT HISTORY ---------------- #
+st.title("🤖 HiesenBot – IIIT Kottayam Assistant")
 
 if "chat" not in st.session_state:
     st.session_state.chat = []
 
-for sender, message in st.session_state.chat:
-    if sender == "user":
-        st.chat_message("user").markdown(message)
-    else:
-        st.chat_message("assistant").markdown(message)
+for sender, msg in st.session_state.chat:
+    st.chat_message(sender).markdown(msg)
 
-
-# ---------------- USER INPUT ---------------- #
-
-user_input = st.chat_input("Ask me anything...")
+user_input = st.chat_input("Ask something...")
 
 if user_input:
-    # Save user message
     st.session_state.chat.append(("user", user_input))
     st.chat_message("user").markdown(user_input)
 
-    # Classify intent
-    intent = classify_intent(user_input)
-
-    if intent == "mess":
-        reply = get_mess_menu(user_input)
-
-    elif intent == "academic":
-        reply = search_academic(user_input)
-
-    else:
-        reply = ask_llm(model, user_input)
-
-    # Save bot reply
-    st.session_state.chat.append(("assistant", str(reply)))
-    st.chat_message("assistant").markdown(str(reply))
+    reply = agent(user_input)
+    st.session_state.chat.append(("assistant", reply))
+    st.chat_message("assistant").markdown(reply)
