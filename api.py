@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["*"],       # <-- enables OPTIONS automatically
     allow_headers=["*"],
 )
 
@@ -24,6 +24,10 @@ class Query(BaseModel):
     message: str
 
 @app.post("/askme")
-def ask_me(q: Query):
+async def ask_me(q: Query):
     reply = agent(q.message)
     return {"reply": reply}
+
+@app.options("/askme")
+async def ask_me_options():
+    return {}
