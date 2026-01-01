@@ -1,10 +1,10 @@
 {
   "semester": "Odd Semester 2025-26",
   "program": "B.Tech (Sem III, V, VII)",
-  "instructional_days": 66,
+  "instructional_days": 67,
   "notes": [
-    "Bold numbers 1 to 66 indicate instructional days",
-    "Milad-un-Nabi, Muharram, and other holidays are subject to moon sighting",
+    "Bold numbers 1 to 67 indicate instructional days",
+    "Holidays such as Muharram and Milad-un-Nabi are subject to moon sighting",
     "Next semester classes start on 1st January 2026"
   ],
   "events": {
@@ -15,30 +15,32 @@
     "class_committees": {
       "S5_S7_first": "2025-07-27",
       "S3_first": "2025-07-29",
-      "S3_second": "2025-09-30",
-      "S5_S7_second": "2025-12-31"
+      "S3_second": "2025-10-10",
+      "S5_S7_second": "2025-10-08",
+      "final_meeting": "2025-12-12"
     },
     "course_drop_last_day": "2025-08-13",
     "mid_semester_exams": {
-      "start_date": "2025-09-15"
+      "start_date": "2025-09-22"
     },
     "end_semester_exams": {
-      "start_date": "2025-11-17"
+      "start_date": "2025-11-14"
     },
     "grades": {
       "submission_deadline": "2025-12-10",
-      "result_publication": "2025-11-18"
+      "result_publication": "2025-12-18"
     },
     "sports_meet": {
       "start": "2025-10-24",
       "end": "2025-10-26"
     },
     "project_reviews": {
-      "btp_ms_first_review": "2025-08-08",
-      "btp_hons_ms_final_review_week": "2025-12-10"
+      "btp_ms_first_review_week": "2025-09-08",
+      "btp_hons_ms_final_review_week": "2025-11-10"
     },
-    "attendance_submission": "2025-12-12",
-    "class_ends": "2025-12-14",
+    "attendance_submission": "2025-11-07",
+    "course_evaluation": "2025-11-11",
+    "class_ends": "2025-11-12",
     "repeat_exam_start": "2025-12-30"
   },
   "holidays": {
@@ -54,6 +56,6 @@
   },
   "academic_dates": {
     "classes_begin": "2025-07-01",
-    "class_ends": "2025-12-14"
+    "class_ends": "2025-11-12"
   }
 }
